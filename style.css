@@ -1,0 +1,108 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 580px;
+  max-width: calc(100vw - 10px);
+  display: flex; 
+  justify-content: space-around;
+  background: hsla(0, 0%, 100%, .6);
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  padding: 35px;
+  border-radius: 2%;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://cdn.pixabay.com/photo/2014/12/15/17/16/boardwalk-569314_960_720.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Helvetica"
+}
+
+.content {
+  width: 200px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+li {
+  display: inline;
+}
+
+.name {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.links {
+  margin-top: 15px;
+  font-size: 20px;  
+}
+
+.hr {
+  width: 1px;
+  background-color: black;
+  height: 300px;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #666;
+  padding: 1px;
+  filter: grayscale(50%);
+  transition: all 0.5s ease-in-out;  
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(20%);
+}
+
+i {
+  color: #0081CF;
+}
+
+.profile-image {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-facebook-square {
+  padding-right: 5px;
+}
+
+.fa-fa-github-square {
+  padding-left: 5px;
+}
+
+.head {
+  text-align: center;
+}
